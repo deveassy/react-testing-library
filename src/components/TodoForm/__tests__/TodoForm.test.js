@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import TodoForm from "./TodoForm";
+import TodoForm from "..";
 
 describe("<TodoForm />", () => {
   const setup = (props = {}) => {

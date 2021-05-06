@@ -1,5 +1,5 @@
 import React from "react";
-import TodoItemList from "./TodoItemList";
+import TodoItemList from "..";
 import { render, fireEvent } from "@testing-library/react";
 
 describe("<TodoItemList />", () => {

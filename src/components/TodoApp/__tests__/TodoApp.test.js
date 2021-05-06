@@ -1,5 +1,5 @@
 import React from "react";
-import TodoApp from "./TodoApp";
+import TodoApp from "..";
 import { render, fireEvent } from "@testing-library/react";
 
 describe("<TodoApp />", () => {
